@@ -1,0 +1,244 @@
+.clr {
+  display: block;
+  clear: both;
+}
+
+.hide {
+  display: none !important;
+}
+
+.hide-desktop {
+  @include desktop {
+    display: none !important;
+  }
+}
+
+@include desktop {
+}
+
+.hide-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+
+.hide-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+
+.hide-only-mobile {
+  @include only-mobile {
+    display: none !important;
+  }
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-margin-vertical {
+  margin-bottom: 0!important;
+  margin-top: 0!important;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.no-margin-left {
+  margin-left: 0 !important;
+}
+
+.no-margin-right {
+  margin-right: 0 !important;
+}
+
+.margin-top-x1 {
+  margin-top: $indent8 !important;
+}
+
+.margin-top-x1_5 {
+  margin-top: $indent16 !important;
+}
+
+.margin-bottom {
+  margin-bottom: $indent4 !important;
+}
+
+.margin-bottom-x1 {
+  margin-bottom: $indent8 !important;
+}
+
+.margin-top-x2 {
+  margin-top: $indent20 !important;
+}
+
+.margin-bottom-x2 {
+  margin-bottom: $indent20 !important;
+}
+
+.margin-top-x3 {
+  margin-top: $indent32 !important;
+}
+
+.margin-bottom-x3 {
+  margin-bottom: $indent32 !important;
+}
+
+.margin-top-x4 {
+  margin-top: $indent40 !important;
+}
+
+.margin-bottom-x4 {
+  margin-bottom: $indent40 !important;
+}
+
+.margin-top-x5 {
+  margin-top: $indent48 !important;
+}
+
+.margin-bottom-x5 {
+  margin-bottom: $indent48 !important;
+}
+
+.margin-bottom-7px{
+  margin-bottom: 7px !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-vertical {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.no-padding-horizontal {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+.padding-top {
+  padding-top: $indent10 !important;
+}
+
+.padding-top-x1 {
+  padding-top: $indent12 !important;
+}
+
+.padding-top-x2 {
+  padding-top: $indent20 !important;
+}
+
+.padding-top-x3 {
+  padding-top: $indent32 !important;
+}
+
+.padding-bottom {
+  padding-bottom: $indent10 !important;
+}
+
+.padding-bottom-x1 {
+  padding-bottom: $indent12 !important;
+}
+
+.padding-bottom-x2 {
+  padding-bottom: $indent20 !important;
+}
+
+.padding-bottom-x3 {
+  padding-bottom: $indent32 !important;
+}
+
+.padding-bottom-7px{
+  padding-bottom: 7px !important;
+}
+
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+.text-align-right {
+  text-align: right !important;
+}
+
+.disabled {
+  opacity: 0.5 !important;
+  cursor: default;
+}
+
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-bold {
+  font-weight: 900 !important;
+}
+
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+.nobr {
+  white-space: nowrap !important;
+}
+
+.color-white {
+  color: $colorWhite !important;
+}
+
+.color-red {
+  color: $colorRed !important;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: $colorSecondary;
+}

@@ -1,0 +1,70 @@
+.main-block {
+  height: 650px;
+
+  .main-content {
+    display: block;
+    padding-top: 75px;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 95px;
+    color: $colorWhite;
+
+      .main-content-text {
+        text-align: right;
+
+          .subtitle {
+            font-weight: 500;
+            font-size: $indent24;
+            line-height: 24px;
+            text-transform: uppercase;
+          }
+
+        .main-content-advantages {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: $indent60;
+
+          .item {
+            text-align: center;
+
+            .description {
+              max-width: 130px;
+              font-size: $indent14;
+              line-height: $indent14;
+              margin-top: $indent20;
+            }
+
+          }
+        }
+
+        .button-consultation-text {
+          margin-top: $indent10;
+          font-size: $indent16;
+
+            a {
+              color: $colorWhite;
+              text-transform: uppercase;
+            }
+        }
+      }
+  }
+
+  .main-bg{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 500px;
+    transition: filter .6s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}

@@ -1,0 +1,48 @@
+.advantages {
+
+  .title {
+
+  }
+  .advantages-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 -32.5px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    .item {
+      flex: 0 1 33%;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 32.5px;
+
+      @include mobile {
+        flex: 0 1 100%;
+      }
+
+
+      .icon {
+        max-width: 70px;
+      }
+
+      .subtitle {
+        font-size: $indent18;
+        font-weight: 700;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .text {
+        margin-top: 20px;
+        font-size: $indent14;
+        font-family: $fontLight;
+        font-weight: 300;
+        text-align: center;
+        max-width: 230px;
+      }
+    }
+  }
+}

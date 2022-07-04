@@ -1,0 +1,38 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: $fontRegular;
+  font-size: 10px;
+  font-weight: 500;
+  color: $colorPrimary;
+  height: 100%;
+  min-height: 300px;
+  background: #fff;
+  background-size: cover;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  min-height: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.body {
+  flex: 1 0 auto;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  transition: filter .6s ease, opacity .3s ease, transform .3s ease;
+}

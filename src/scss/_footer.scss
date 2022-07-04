@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+
+  .footer-info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 200px;
+    background-color: $colorRed;
+    text-align: center;
+
+    .footer_address {
+      margin-top: 50px;
+      font-size: $indent20;
+      color: $colorWhite;
+    }
+
+    .footer_phone {
+      font-weight: 700;
+      font-size: $indent20;
+      color: $colorWhite;
+      margin-top: 36px;
+      display: block;
+      text-decoration: none;
+    }
+
+
+  }
+}

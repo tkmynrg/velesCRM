@@ -1,0 +1,84 @@
+.section {
+  display: block;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: $indent70 0;
+  background-color: $colorWhite;
+  overflow: hidden;
+
+  &.fullscreen {
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  &.gray {
+    background-color: $colorBgLight;
+  }
+
+  @include mobile {
+    padding: $indent56 0;
+  }
+}
+
+h1, .h1 {
+  @extend .headline-1;
+}
+
+h2, .h2 {
+  @extend .headline-2;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1px 15px;
+  max-width: 944px;
+}
+
+.container-small {
+  margin: 0 auto;
+  padding: 1px 15px;
+  max-width: 746px;
+
+  @include only-mobile {
+    max-width: 476px;
+  }
+
+  @include xs-mobile {
+    max-width: 288px;
+  }
+}
+
+.container-medium {
+  margin: 0 auto;
+  padding: 1px 15px;
+  max-width: 1038px;
+}
+
+.container-super-small {
+  margin: 0 auto;
+  padding: 1px 15px;
+  max-width: 830px;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: $indent20;
+  line-height: $indent24;
+  display: inline-flex;
+  width: auto;
+  padding: $indent20 $indent40;
+  background: $colorWhite;
+  color: $colorBlack;
+  text-decoration: none;
+  font-family: $fontBold;
+  border-radius: $indent4;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  }
+
+
+}

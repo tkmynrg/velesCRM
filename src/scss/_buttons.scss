@@ -1,0 +1,51 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: $indent12;
+  line-height: $indent18;
+  color: $colorWhite;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  background-color: $colorRed;
+  cursor: pointer;
+  user-select: none;
+  transition: all .2s;
+
+  &.callback-header {
+    width: 153px;
+  }
+
+  &:hover {
+    background-color: #a11c1c;
+  }
+
+  &:active {
+
+  }
+
+  &.consultation {
+    width: 300px;
+    font-size: $indent16;
+    padding: $indent12 $indent28;
+    margin-top: $indent80;
+  }
+
+  &.submit {
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-size: $indent16;
+    letter-spacing: 1px;
+  }
+
+  &.button-buy-catalog {
+    padding: 12px 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}

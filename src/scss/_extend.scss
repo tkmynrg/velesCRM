@@ -1,0 +1,60 @@
+.headline-1 {
+  font-family: $fontMedium;
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 700;
+  color: $colorPrimary;
+  margin: $indent10 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include mobile {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.headline-2 {
+  @extend .headline-1;
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+
+  @include desktop-smaller {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @include mobile {
+    font-size: 16px;
+    line-height: 34px;
+  }
+}
+
+.headline-3 {
+  @extend .headline-1;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.headline-4 {
+  @extend .headline-1;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.headline-5 {
+  @extend .headline-1;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.headline-6 {
+  @extend .headline-1;
+  font-size: 16px;
+  line-height: 24px;
+}

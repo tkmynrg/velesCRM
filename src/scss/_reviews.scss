@@ -1,0 +1,39 @@
+.reviews {
+  margin-top: 50px;
+  .item {
+    display: flex;
+    margin-bottom: 50px;
+
+    .photo {
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      flex-shrink: 0;
+      height: 169px;
+      margin-right: 60px;
+      width: 169px;
+    }
+
+    .info {
+
+      .name {
+        color: $colorBlack;
+        font-size: $indent18;
+        font-weight: 700;
+      }
+
+      .achievements {
+        color: #646464;
+        font-size: $indent14;
+      }
+
+      .text {
+        color: $colorBlack;
+        font-weight: 300;
+        font-size: $indent16;
+        line-height: $indent24;
+      }
+    }
+  }
+}
